@@ -29,10 +29,9 @@ state = {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React Lel</h1>
+          <h1 className="App-title">Hello World - React </h1>
+          <p className="App-intro">{this.state.data}</p>
         </header>
-        /// Render the newly fetched data inside of this.state.data
-        <p className="App-intro">{this.state.data}</p>
       </div>
     );
   }

@@ -7,7 +7,7 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 // create a GET route
 app.get('/express_backend', (req, res) => {
-  res.send({ express: 'YOUR EXPRESS BACKEND IS CONNECTED TO REACT1' });
+  res.send({ express: 'Data from Backend - Express' });
 });
 
 if (process.env.NODE_ENV === 'production') {
