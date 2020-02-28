@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+    - "node_modules"
+deploy:
+  app: guarded-savannah-67167
+  provider: heroku
