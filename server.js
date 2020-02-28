@@ -7,7 +7,7 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 // create a GET route
 app.get('/express_backend', (req, res) => {
-  res.send({ express: 'Data from Backend - Express' });
+  res.send({ express: 'Data from Backend - Express Test 2' });
 });
 
 if (process.env.NODE_ENV === 'production') {
