@@ -1,11 +1,15 @@
 language: node_js
 node_js:
-  - "stable"
+- stable
 cache:
   directories:
-    - "node_modules"
+  - node_modules
 deploy:
-  app: guarded-savannah-67167
   provider: heroku
+  api_key:
+    secure: Goi4ixY9mAHDE2Ie4NasFkb9mQrO8ldZEzELKWJUZ5bmMjTgbyp5pt0WHLZfBKr+c3TseA6uuypQgJwNgRHTJ9VNpKbGiDwdJandqioMe4iS5ue/AjpApgdlA+VEiWLdswoXpYHX8N8TZiRbirEEswjmplIODp9jlDAYe/NMXNVDzyUfizy8HsQT1rJpXO9B+RSP/oU1eKsVmzDF7mDg/UsiVP00IKbe22XNb9zv406LIOXxoTEDAKMpKhwpeOaclRWL6lnxJvxkx6fTyMbdzfnPvHxBB/mUxQRwG9PxuQM9rUP7QJ6Z0r+jCgQ2mZT3zWCXIU8XViwabNXRTKeI569bF6g824bY23CWqRXJ7UJDPAZd2vexwd55ehKPTrsLw3ID71RNc7/ikxqxfdU9quxKtbfSogM8xhSpIC+YGUjBZWLjBHYgYeVZx3nq4jLIZ/juC98lyG5iziY9TMjjnwwqgMQms2t+4mvRcnO8K/lZng4Thom6zhrWhL0h72uMY+mLw0q9A3n0O5p9yn74/PK3kOStbQQ5a/5Bw5aMGc9VCTsos79dk2x8MEs94gRFQXTq7sAtes7z8BRInrrE1SRa01W4rNlRpSBStsUm1svJw7VXiNBCcRewxw39aiH5DsH5MYlnCiOb/9nAZQbqkL337GxiAztqPlXaLIDZNNU=
+  app: ReapressTest
+  on:
+    repo: Cvaniak/ReapressTest
 script:
-  - echo "skipping tests"
+- echo "skipping tests"
